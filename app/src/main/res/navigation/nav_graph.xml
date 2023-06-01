@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    android:label="Home"
+    app:startDestination="@id/homeView">
+
+    <fragment
+        android:id="@+id/homeView"
+        android:name="home.view.HomeView"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_view">
+        <action
+            android:id="@+id/action_homeView_to_favoritesView"
+            app:destination="@id/favoritesView" />
+        <action
+            android:id="@+id/action_homeView_to_searchView"
+            app:destination="@id/searchView" />
+        <action
+            android:id="@+id/action_homeView_to_weekPlanView"
+            app:destination="@id/weekPlanView" />
+        <action
+            android:id="@+id/action_homeView_to_mealDetailView"
+            app:destination="@id/mealDetailView" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesView"
+        android:name="favorites.view.FavoritesView"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_favorites_view">
+        <action
+            android:id="@+id/action_favoritesView_to_homeView"
+            app:destination="@id/homeView" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchView"
+        android:name="search.view.SearchView"
+        android:label="Search"
+        tools:layout="@layout/fragment_search_view">
+        <action
+            android:id="@+id/action_searchView_to_homeView"
+            app:destination="@id/homeView" />
+    </fragment>
+    <fragment
+        android:id="@+id/weekPlanView"
+        android:name="week_plan.view.WeekPlanView"
+        android:label="Week Plan"
+        tools:layout="@layout/fragment_week_plan_view">
+        <action
+            android:id="@+id/action_weekPlanView_to_homeView"
+            app:destination="@id/homeView" />
+    </fragment>
+    <fragment
+        android:id="@+id/mealDetailView"
+        android:name="meal_details.view.MealDetail"
+        android:label="Meal Details"
+        tools:layout="@layout/fragment_meal_detail">
+        <argument
+            android:name="mealId"
+            app:argType="string"
+            app:nullable="false" />
+    </fragment>
+</navigation>

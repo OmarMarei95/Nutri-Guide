@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Nutri Guide</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mealOfTheDay">Daily Inspiration</string>
+    <string name="trending_now">Trending Now</string>
+    <string name="more_meals">More of what you like</string>
+    <string name="all_meals_viewAll">VIEW ALL</string>
+    <string name="my_saved_meals">My Saved Recipes</string>
+    <string name="favorites">Favorites</string>
+    <string name="add_meals">Add Meals</string>
+    <string name="search_content_description">Apply filters</string>
+    <string name="nested_scroll">nested_scroll</string>
+</resources>

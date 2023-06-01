@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/searchView"
+        android:icon="@drawable/search_icon"
+        android:title="Search" />
+    <item
+        android:id="@+id/favoritesView"
+        android:icon="@drawable/favorite_icon"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/homeView"
+        android:icon="@drawable/home_icon"
+        android:title="Home" />
+    <item
+        android:id="@+id/weekPlanView"
+        android:icon="@drawable/calendar_icon"
+        android:title="Week Plan" />
+    <item
+        android:id="@+id/logOut"
+        android:icon="@drawable/logout_icon"
+        android:title="Logout" />
+</menu>

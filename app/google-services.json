@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "97713787039",
+    "project_id": "nutriguide-d801f",
+    "storage_bucket": "nutriguide-d801f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97713787039:android:64a25325f022176ce6d2aa",
+        "android_client_info": {
+          "package_name": "com.example.nutriguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97713787039-qnijjgso1q1ckj8n8vmqkd1msnluku9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nutriguide",
+            "certificate_hash": "53991dd78f96e5deee441f34c0f0e55dafa836c4"
+          }
+        },
+        {
+          "client_id": "97713787039-et747q8aoeirnd6k1ettvqfukk8rapmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkVG8aVvi87HJ4wgd9Oxi70U3kdg9CEkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97713787039-et747q8aoeirnd6k1ettvqfukk8rapmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
